@@ -28,11 +28,11 @@ export default function Home() {
     >
       <main className="relative z-10 flex h-screen flex-col items-center justify-center bg-pink-50 text-center px-4">
         <h1 className="text-5xl md:text-7xl font-extrabold text-pink-700 drop-shadow-lg">
-          Happy Mother's Day ❤️
+          Happy Mother&apos;s Day ❤️
         </h1>
         <p className="mt-4 text-lg md:text-2xl text-pink-500 max-w-xl">
           To my dearest Mom, Thank you for everything you do. Your strength, love, and sacrifices, even though it looks like it does, never goes unnoticed. As a wife, mom, and daughter, you have given so much of yourself to us, never you, always putting others first. Your hard work and selflessness inspire us everyday.
-          Happy Mother's Day Mom. You are a truly amazing human being. I'm so grateful that you are my mom. I Love You.
+          Happy Mother&apos;s Day Mom. You are a truly amazing human being. I&apos;m so grateful that you are my mom. I Love You.
           With all my love, Alan.
         </p>
       </main>

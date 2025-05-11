@@ -88,7 +88,7 @@ const MouseImageTrail: React.FC<MouseImageTrailProps> = ({
       className="relative overflow-hidden"
       onMouseMove={handleMouseMove}
     >
-      {/* Trail images - z-0 so they're underneath */}
+      {/* Trail images - z-0 so theyre underneath */}
       {images.map((img, index) => (
         <img
           className="pointer-events-none absolute left-0 top-0 z-0 h-[100px] w-[100px] rounded-xl border-2 border-black bg-neutral-900 object-cover opacity-0"
@@ -99,7 +99,7 @@ const MouseImageTrail: React.FC<MouseImageTrailProps> = ({
         />
       ))}
 
-      {/* Children (text content) - z-10 so it's on top */}
+      {/* Children (text content) - z-10 so its on top */}
       <div className="relative z-10">{children}</div>
     </div>
   );
